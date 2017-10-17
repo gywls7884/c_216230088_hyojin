@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--tools:context="peace.tabbutton.SubActivity_insta">-->
+
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/pro"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="235dp"
+            android:layout_height="33dp"
+            android:text="Profile "
+            tools:layout_editor_absoluteX="145dp"
+            tools:layout_editor_absoluteY="74dp" />
+
+        <TextView
+            android:id="@+id/num"
+            android:layout_width="228dp"
+            android:layout_height="21dp"
+            android:text="30               100                100"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            tools:layout_editor_absoluteX="163dp"
+            tools:layout_editor_absoluteY="30dp" />
+
+        <TextView
+            android:id="@+id/follower"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Follower"
+            tools:layout_editor_absoluteX="217dp"
+            tools:layout_editor_absoluteY="51dp" />
+
+        <TextView
+            android:id="@+id/following"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Following"
+            tools:layout_editor_absoluteX="295dp"
+            tools:layout_editor_absoluteY="51dp" />
+
+        <TextView
+            android:id="@+id/post"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Post"
+            tools:layout_editor_absoluteX="156dp"
+            tools:layout_editor_absoluteY="51dp" />
+
+        <ImageView
+            android:id="@+id/me"
+            android:layout_width="120dp"
+            android:layout_height="107dp"
+            app:srcCompat="@drawable/my1"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C_216230088_hyojin"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="114dp" />
+    </android.support.constraint.ConstraintLayout>
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="132dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <GridLayout
+                android:layout_width="379dp"
+                android:layout_height="326dp"
+                android:columnCount="3"
+                android:rowCount="3"
+                android:orientation="horizontal"
+                tools:layout_editor_absoluteX="2dp"
+                tools:layout_editor_absoluteY="55dp">
+
+                <ImageView
+                    android:id="@+id/a"
+                    android:layout_width="126dp"
+                    android:layout_height="119dp"
+                    android:paddingBottom="1dp"
+                    android:paddingTop="1dp"
+                    app:srcCompat="@drawable/a" />
+
+                <ImageView
+                    android:id="@+id/b"
+                    android:layout_width="126dp"
+                    android:layout_height="119dp"
+                    android:layout_gravity="fill_horizontal"
+                    android:paddingBottom="1dp"
+                    android:paddingTop="1dp"
+                    app:srcCompat="@drawable/c"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="0dp" />
+
+                <ImageView
+                    android:id="@+id/c"
+                    android:layout_width="126dp"
+                    android:layout_height="119dp"
+                    android:paddingBottom="1dp"
+                    android:paddingTop="1dp"
+                    app:srcCompat="@drawable/n" />
+
+                <ImageView
+                    android:id="@+id/d"
+                    android:layout_width="126dp"
+                    android:layout_height="119dp"
+                    android:paddingBottom="1dp"
+                    android:paddingTop="1dp"
+                    app:srcCompat="@drawable/m" />
+
+                <ImageView
+                    android:id="@+id/e"
+                    android:layout_width="126dp"
+                    android:layout_height="119dp"
+                    android:paddingBottom="1dp"
+                    android:paddingTop="1dp"
+                    app:srcCompat="@drawable/l" />
+
+                <ImageView
+                    android:id="@+id/f"
+                    android:layout_width="126dp"
+                    android:layout_height="119dp"
+                    android:paddingBottom="1dp"
+                    android:paddingTop="1dp"
+                    app:srcCompat="@drawable/o" />
+
+                <ImageView
+                    android:id="@+id/g"
+                    android:layout_width="126dp"
+                    android:layout_height="119dp"
+                    android:paddingTop="1dp"
+                    app:srcCompat="@drawable/w" />
+
+                <ImageView
+                    android:id="@+id/h"
+                    android:layout_width="126dp"
+                    android:layout_height="119dp"
+                    android:paddingTop="1dp"
+                    app:srcCompat="@drawable/j" />
+
+                <ImageView
+                    android:id="@+id/i"
+                    android:layout_width="126dp"
+                    android:layout_height="119dp"
+                    android:paddingTop="1dp"
+                    app:srcCompat="@drawable/b" />
+
+            </GridLayout>
+        </android.support.constraint.ConstraintLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bt_tab1"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableTop="@android:drawable/ic_dialog_dialer" />
+
+            <Button
+                android:id="@+id/bt_tab2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableTop="@android:drawable/ic_menu_my_calendar" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</RelativeLayout>
+
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--android:orientation="vertical" android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="130dp"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:weightSum="1">-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/imageView"-->
+            <!--android:layout_width="101dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--app:srcCompat="@drawable/my"-->
+            <!--android:layout_weight="0.06" />-->
+    <!--</LinearLayout>-->
+
+    <!--<GridLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+
+    <!--</GridLayout>-->
+<!--</LinearLayout>-->
