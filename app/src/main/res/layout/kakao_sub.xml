@@ -10,9 +10,9 @@
         android:layout_height="wrap_content">
 
             <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="55dp"
-            android:orientation="vertical">
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:orientation="vertical">
 
                 <FrameLayout
                     android:id="@android:id/tabcontent"

@@ -23,18 +23,66 @@
             android:layout_width="384dp"
             android:layout_height="310dp"
             android:orientation="vertical"
-            tools:layout_editor_absoluteX="1dp"
-            tools:layout_editor_absoluteY="198dp"
-            android:weightSum="1">
+            android:weightSum="1"
+            tools:layout_editor_absoluteX="2dp"
+            tools:layout_editor_absoluteY="198dp">
 
-            <CheckedTextView
-                android:id="@+id/checkedTextView"
-                android:layout_width="401dp"
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="CheckedTextView"
-                tools:layout_editor_absoluteX="-13dp"
-                tools:layout_editor_absoluteY="198dp"
-                android:layout_weight="0.10" />
+                android:layout_weight="0.09" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.09"
+                android:paddingLeft="100dp"
+                android:paddingTop="10dp"
+                android:text="Name: Hyojin-Kim"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.09"
+                android:paddingLeft="100dp"
+                android:paddingTop="10dp"
+                android:text="Nickname: Dorimi"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.09"
+                android:paddingLeft="100dp"
+                android:paddingTop="10dp"
+                android:text="Address: Sindorim"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.09"
+                android:paddingLeft="100dp"
+                android:paddingTop="10dp"
+                android:text="E-mail: gywls7884@naver.com"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textSize="18sp" />
+
+            <Switch
+                android:id="@+id/switch1"
+                android:layout_width="220dp"
+                android:layout_height="45dp"
+                android:layout_weight="0.42" />
+
         </LinearLayout>
 
     </android.support.constraint.ConstraintLayout>

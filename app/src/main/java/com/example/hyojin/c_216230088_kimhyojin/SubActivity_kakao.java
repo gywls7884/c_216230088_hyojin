@@ -18,8 +18,5 @@ public class SubActivity_kakao extends MainActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.kakao_sub);
 
-
-
-
     }
 }

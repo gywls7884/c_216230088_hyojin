@@ -175,7 +175,8 @@
             android:layout_width="match_parent"
             android:layout_height="53dp"
             android:layout_alignParentBottom="true"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            tools:ignore="ObsoleteLayoutParam">
 
             <Button
                 android:id="@+id/bt_tab1"
